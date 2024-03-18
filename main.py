@@ -17,7 +17,7 @@ def verify_json_file(filename):
     if not data:
         raise ValueError("JSON file is empty.")
 
-    if not isinstance(data.get('PolicyName'), str) or not isinstance(data.get('PolicyDocument'), dict):
+    if not isinstance(data.get('PolicyName', 0), str) or not isinstance(data.get('PolicyDocument', 0), dict):
         raise ValueError("JSON file does not follow the `AWS::IAM::Role Policy` data format.")
     
     statement = data['PolicyDocument'].get('Statement', [])
