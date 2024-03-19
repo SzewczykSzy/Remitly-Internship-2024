@@ -6,7 +6,7 @@ This repository contain method verifying the input JSON data which format is def
     ```bash
     git clone https://github.com/SzewczykSzy/Remitly-Internship-2024.git
     ```
-- To run the code write in terminal:
+- Navigate to repository and run the code in terminal:
     ```bash
     python main.py <JSON_file_path>
     ```
