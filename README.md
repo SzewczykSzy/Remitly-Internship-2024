@@ -20,4 +20,4 @@ Project is created with:
     ```bash
     pytest
     ```
-This code will execute unit tests in  `test_policy.py`. 
+This code will automaticly execute unit tests in `test_policy.py`. 
