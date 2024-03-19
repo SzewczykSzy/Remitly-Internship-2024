@@ -1,8 +1,7 @@
 # Remitly-Internship-2024
 This repository contain method verifying the input JSON data, which format is defined as `AWS::IAM::Role Policy`.
 
-## Technologies
-Project is created with:
+## Technologies and Prerequisites:
 * Python: 3.9
 * PyTest: 8.1
 
